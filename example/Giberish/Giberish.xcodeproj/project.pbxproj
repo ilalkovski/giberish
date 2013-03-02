@@ -21,6 +21,7 @@
 		578994EE16E2291D00C6E0D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994CF16E2291D00C6E0D1 /* Foundation.framework */; };
 		578994F616E2291D00C6E0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 578994F416E2291D00C6E0D1 /* InfoPlist.strings */; };
 		578994F916E2291D00C6E0D1 /* GiberishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578994F816E2291D00C6E0D1 /* GiberishTests.m */; };
+		5789950516E22A2900C6E0D1 /* WFGiberishTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		578994F516E2291D00C6E0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		578994F716E2291D00C6E0D1 /* GiberishTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiberishTests.h; sourceTree = "<group>"; };
 		578994F816E2291D00C6E0D1 /* GiberishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiberishTests.m; sourceTree = "<group>"; };
+		5789950316E22A2900C6E0D1 /* WFGiberishTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFGiberishTrain.h; sourceTree = "<group>"; };
+		5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFGiberishTrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 			children = (
 				578994DC16E2291D00C6E0D1 /* WFAppDelegate.h */,
 				578994DD16E2291D00C6E0D1 /* WFAppDelegate.m */,
+				5789950216E229DC00C6E0D1 /* Giberish-core */,
 				578994D416E2291D00C6E0D1 /* Supporting Files */,
 			);
 			path = Giberish;
@@ -150,6 +154,16 @@
 				578994F416E2291D00C6E0D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5789950216E229DC00C6E0D1 /* Giberish-core */ = {
+			isa = PBXGroup;
+			children = (
+				5789950316E22A2900C6E0D1 /* WFGiberishTrain.h */,
+				5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */,
+			);
+			name = "Giberish-core";
+			path = "../../../Giberish-core";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,7 @@
 			files = (
 				578994DA16E2291D00C6E0D1 /* main.m in Sources */,
 				578994DE16E2291D00C6E0D1 /* WFAppDelegate.m in Sources */,
+				5789950516E22A2900C6E0D1 /* WFGiberishTrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
