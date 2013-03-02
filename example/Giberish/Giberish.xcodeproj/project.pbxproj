@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		578994CE16E2291D00C6E0D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994CD16E2291D00C6E0D1 /* UIKit.framework */; };
+		578994D016E2291D00C6E0D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994CF16E2291D00C6E0D1 /* Foundation.framework */; };
+		578994D216E2291D00C6E0D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994D116E2291D00C6E0D1 /* CoreGraphics.framework */; };
+		578994D816E2291D00C6E0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 578994D616E2291D00C6E0D1 /* InfoPlist.strings */; };
+		578994DA16E2291D00C6E0D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578994D916E2291D00C6E0D1 /* main.m */; };
+		578994DE16E2291D00C6E0D1 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 578994DD16E2291D00C6E0D1 /* WFAppDelegate.m */; };
+		578994E016E2291D00C6E0D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 578994DF16E2291D00C6E0D1 /* Default.png */; };
+		578994E216E2291D00C6E0D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578994E116E2291D00C6E0D1 /* Default@2x.png */; };
+		578994E416E2291D00C6E0D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578994E316E2291D00C6E0D1 /* Default-568h@2x.png */; };
+		578994EC16E2291D00C6E0D1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994EB16E2291D00C6E0D1 /* SenTestingKit.framework */; };
+		578994ED16E2291D00C6E0D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994CD16E2291D00C6E0D1 /* UIKit.framework */; };
+		578994EE16E2291D00C6E0D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578994CF16E2291D00C6E0D1 /* Foundation.framework */; };
+		578994F616E2291D00C6E0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 578994F416E2291D00C6E0D1 /* InfoPlist.strings */; };
+		578994F916E2291D00C6E0D1 /* GiberishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578994F816E2291D00C6E0D1 /* GiberishTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578994EF16E2291D00C6E0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578994C216E2291D00C6E0D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578994C916E2291D00C6E0D1;
+			remoteInfo = Giberish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		578994CA16E2291D00C6E0D1 /* Giberish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giberish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		578994CD16E2291D00C6E0D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		578994CF16E2291D00C6E0D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		578994D116E2291D00C6E0D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		578994D516E2291D00C6E0D1 /* Giberish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Giberish-Info.plist"; sourceTree = "<group>"; };
+		578994D716E2291D00C6E0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		578994D916E2291D00C6E0D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		578994DB16E2291D00C6E0D1 /* Giberish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Giberish-Prefix.pch"; sourceTree = "<group>"; };
+		578994DC16E2291D00C6E0D1 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		578994DD16E2291D00C6E0D1 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		578994DF16E2291D00C6E0D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		578994E116E2291D00C6E0D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		578994E316E2291D00C6E0D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		578994EA16E2291D00C6E0D1 /* GiberishTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiberishTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578994EB16E2291D00C6E0D1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		578994F316E2291D00C6E0D1 /* GiberishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GiberishTests-Info.plist"; sourceTree = "<group>"; };
+		578994F516E2291D00C6E0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		578994F716E2291D00C6E0D1 /* GiberishTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiberishTests.h; sourceTree = "<group>"; };
+		578994F816E2291D00C6E0D1 /* GiberishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiberishTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578994C716E2291D00C6E0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994CE16E2291D00C6E0D1 /* UIKit.framework in Frameworks */,
+				578994D016E2291D00C6E0D1 /* Foundation.framework in Frameworks */,
+				578994D216E2291D00C6E0D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578994E616E2291D00C6E0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994EC16E2291D00C6E0D1 /* SenTestingKit.framework in Frameworks */,
+				578994ED16E2291D00C6E0D1 /* UIKit.framework in Frameworks */,
+				578994EE16E2291D00C6E0D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578994C116E2291D00C6E0D1 = {
+			isa = PBXGroup;
+			children = (
+				578994D316E2291D00C6E0D1 /* Giberish */,
+				578994F116E2291D00C6E0D1 /* GiberishTests */,
+				578994CC16E2291D00C6E0D1 /* Frameworks */,
+				578994CB16E2291D00C6E0D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578994CB16E2291D00C6E0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578994CA16E2291D00C6E0D1 /* Giberish.app */,
+				578994EA16E2291D00C6E0D1 /* GiberishTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578994CC16E2291D00C6E0D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578994CD16E2291D00C6E0D1 /* UIKit.framework */,
+				578994CF16E2291D00C6E0D1 /* Foundation.framework */,
+				578994D116E2291D00C6E0D1 /* CoreGraphics.framework */,
+				578994EB16E2291D00C6E0D1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578994D316E2291D00C6E0D1 /* Giberish */ = {
+			isa = PBXGroup;
+			children = (
+				578994DC16E2291D00C6E0D1 /* WFAppDelegate.h */,
+				578994DD16E2291D00C6E0D1 /* WFAppDelegate.m */,
+				578994D416E2291D00C6E0D1 /* Supporting Files */,
+			);
+			path = Giberish;
+			sourceTree = "<group>";
+		};
+		578994D416E2291D00C6E0D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				578994D516E2291D00C6E0D1 /* Giberish-Info.plist */,
+				578994D616E2291D00C6E0D1 /* InfoPlist.strings */,
+				578994D916E2291D00C6E0D1 /* main.m */,
+				578994DB16E2291D00C6E0D1 /* Giberish-Prefix.pch */,
+				578994DF16E2291D00C6E0D1 /* Default.png */,
+				578994E116E2291D00C6E0D1 /* Default@2x.png */,
+				578994E316E2291D00C6E0D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		578994F116E2291D00C6E0D1 /* GiberishTests */ = {
+			isa = PBXGroup;
+			children = (
+				578994F716E2291D00C6E0D1 /* GiberishTests.h */,
+				578994F816E2291D00C6E0D1 /* GiberishTests.m */,
+				578994F216E2291D00C6E0D1 /* Supporting Files */,
+			);
+			path = GiberishTests;
+			sourceTree = "<group>";
+		};
+		578994F216E2291D00C6E0D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				578994F316E2291D00C6E0D1 /* GiberishTests-Info.plist */,
+				578994F416E2291D00C6E0D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578994C916E2291D00C6E0D1 /* Giberish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578994FC16E2291D00C6E0D1 /* Build configuration list for PBXNativeTarget "Giberish" */;
+			buildPhases = (
+				578994C616E2291D00C6E0D1 /* Sources */,
+				578994C716E2291D00C6E0D1 /* Frameworks */,
+				578994C816E2291D00C6E0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giberish;
+			productName = Giberish;
+			productReference = 578994CA16E2291D00C6E0D1 /* Giberish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		578994E916E2291D00C6E0D1 /* GiberishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578994FF16E2291D00C6E0D1 /* Build configuration list for PBXNativeTarget "GiberishTests" */;
+			buildPhases = (
+				578994E516E2291D00C6E0D1 /* Sources */,
+				578994E616E2291D00C6E0D1 /* Frameworks */,
+				578994E716E2291D00C6E0D1 /* Resources */,
+				578994E816E2291D00C6E0D1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578994F016E2291D00C6E0D1 /* PBXTargetDependency */,
+			);
+			name = GiberishTests;
+			productName = GiberishTests;
+			productReference = 578994EA16E2291D00C6E0D1 /* GiberishTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578994C216E2291D00C6E0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = webfactory;
+			};
+			buildConfigurationList = 578994C516E2291D00C6E0D1 /* Build configuration list for PBXProject "Giberish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 578994C116E2291D00C6E0D1;
+			productRefGroup = 578994CB16E2291D00C6E0D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578994C916E2291D00C6E0D1 /* Giberish */,
+				578994E916E2291D00C6E0D1 /* GiberishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578994C816E2291D00C6E0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994D816E2291D00C6E0D1 /* InfoPlist.strings in Resources */,
+				578994E016E2291D00C6E0D1 /* Default.png in Resources */,
+				578994E216E2291D00C6E0D1 /* Default@2x.png in Resources */,
+				578994E416E2291D00C6E0D1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578994E716E2291D00C6E0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994F616E2291D00C6E0D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		578994E816E2291D00C6E0D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578994C616E2291D00C6E0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994DA16E2291D00C6E0D1 /* main.m in Sources */,
+				578994DE16E2291D00C6E0D1 /* WFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578994E516E2291D00C6E0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578994F916E2291D00C6E0D1 /* GiberishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578994F016E2291D00C6E0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578994C916E2291D00C6E0D1 /* Giberish */;
+			targetProxy = 578994EF16E2291D00C6E0D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		578994D616E2291D00C6E0D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578994D716E2291D00C6E0D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		578994F416E2291D00C6E0D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578994F516E2291D00C6E0D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578994FA16E2291D00C6E0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578994FB16E2291D00C6E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578994FD16E2291D00C6E0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
+				INFOPLIST_FILE = "Giberish/Giberish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		578994FE16E2291D00C6E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
+				INFOPLIST_FILE = "Giberish/Giberish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5789950016E2291D00C6E0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Giberish.app/Giberish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
+				INFOPLIST_FILE = "GiberishTests/GiberishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5789950116E2291D00C6E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Giberish.app/Giberish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
+				INFOPLIST_FILE = "GiberishTests/GiberishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578994C516E2291D00C6E0D1 /* Build configuration list for PBXProject "Giberish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578994FA16E2291D00C6E0D1 /* Debug */,
+				578994FB16E2291D00C6E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578994FC16E2291D00C6E0D1 /* Build configuration list for PBXNativeTarget "Giberish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578994FD16E2291D00C6E0D1 /* Debug */,
+				578994FE16E2291D00C6E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		578994FF16E2291D00C6E0D1 /* Build configuration list for PBXNativeTarget "GiberishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5789950016E2291D00C6E0D1 /* Debug */,
+				5789950116E2291D00C6E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578994C216E2291D00C6E0D1 /* Project object */;
+}
