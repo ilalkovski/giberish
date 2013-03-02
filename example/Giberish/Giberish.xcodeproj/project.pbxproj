@@ -22,6 +22,11 @@
 		578994F616E2291D00C6E0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 578994F416E2291D00C6E0D1 /* InfoPlist.strings */; };
 		578994F916E2291D00C6E0D1 /* GiberishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578994F816E2291D00C6E0D1 /* GiberishTests.m */; };
 		5789950516E22A2900C6E0D1 /* WFGiberishTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */; };
+		5789950816E23AE200C6E0D1 /* WFGiberishText.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789950716E23AE200C6E0D1 /* WFGiberishText.m */; };
+		5789950B16E23B0100C6E0D1 /* WFGiberishTextEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789950A16E23B0100C6E0D1 /* WFGiberishTextEnumerator.m */; };
+		5789950D16E2468600C6E0D1 /* SupportedLanguages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5789950C16E2468600C6E0D1 /* SupportedLanguages.plist */; };
+		5789951216E24BED00C6E0D1 /* mkd.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5789951116E24BED00C6E0D1 /* mkd.txt */; };
+		5789951516E2567100C6E0D1 /* NSString+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789951416E2567100C6E0D1 /* NSString+Language.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,14 @@
 		578994F816E2291D00C6E0D1 /* GiberishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiberishTests.m; sourceTree = "<group>"; };
 		5789950316E22A2900C6E0D1 /* WFGiberishTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFGiberishTrain.h; sourceTree = "<group>"; };
 		5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFGiberishTrain.m; sourceTree = "<group>"; };
+		5789950616E23AE200C6E0D1 /* WFGiberishText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFGiberishText.h; sourceTree = "<group>"; };
+		5789950716E23AE200C6E0D1 /* WFGiberishText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFGiberishText.m; sourceTree = "<group>"; };
+		5789950916E23B0100C6E0D1 /* WFGiberishTextEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFGiberishTextEnumerator.h; sourceTree = "<group>"; };
+		5789950A16E23B0100C6E0D1 /* WFGiberishTextEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFGiberishTextEnumerator.m; sourceTree = "<group>"; };
+		5789950C16E2468600C6E0D1 /* SupportedLanguages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SupportedLanguages.plist; sourceTree = "<group>"; };
+		5789951116E24BED00C6E0D1 /* mkd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mkd.txt; sourceTree = "<group>"; };
+		5789951316E2567100C6E0D1 /* NSString+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Language.h"; sourceTree = "<group>"; };
+		5789951416E2567100C6E0D1 /* NSString+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Language.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,7 @@
 			children = (
 				578994DC16E2291D00C6E0D1 /* WFAppDelegate.h */,
 				578994DD16E2291D00C6E0D1 /* WFAppDelegate.m */,
+				5789950E16E247A700C6E0D1 /* Train Data */,
 				5789950216E229DC00C6E0D1 /* Giberish-core */,
 				578994D416E2291D00C6E0D1 /* Supporting Files */,
 			);
@@ -161,9 +175,25 @@
 			children = (
 				5789950316E22A2900C6E0D1 /* WFGiberishTrain.h */,
 				5789950416E22A2900C6E0D1 /* WFGiberishTrain.m */,
+				5789950616E23AE200C6E0D1 /* WFGiberishText.h */,
+				5789950716E23AE200C6E0D1 /* WFGiberishText.m */,
+				5789950916E23B0100C6E0D1 /* WFGiberishTextEnumerator.h */,
+				5789950A16E23B0100C6E0D1 /* WFGiberishTextEnumerator.m */,
+				5789950C16E2468600C6E0D1 /* SupportedLanguages.plist */,
+				5789951316E2567100C6E0D1 /* NSString+Language.h */,
+				5789951416E2567100C6E0D1 /* NSString+Language.m */,
 			);
 			name = "Giberish-core";
 			path = "../../../Giberish-core";
+			sourceTree = "<group>";
+		};
+		5789950E16E247A700C6E0D1 /* Train Data */ = {
+			isa = PBXGroup;
+			children = (
+				5789951116E24BED00C6E0D1 /* mkd.txt */,
+			);
+			name = "Train Data";
+			path = "../../../Train Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +272,8 @@
 				578994E016E2291D00C6E0D1 /* Default.png in Resources */,
 				578994E216E2291D00C6E0D1 /* Default@2x.png in Resources */,
 				578994E416E2291D00C6E0D1 /* Default-568h@2x.png in Resources */,
+				5789950D16E2468600C6E0D1 /* SupportedLanguages.plist in Resources */,
+				5789951216E24BED00C6E0D1 /* mkd.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +311,9 @@
 				578994DA16E2291D00C6E0D1 /* main.m in Sources */,
 				578994DE16E2291D00C6E0D1 /* WFAppDelegate.m in Sources */,
 				5789950516E22A2900C6E0D1 /* WFGiberishTrain.m in Sources */,
+				5789950816E23AE200C6E0D1 /* WFGiberishText.m in Sources */,
+				5789950B16E23B0100C6E0D1 /* WFGiberishTextEnumerator.m in Sources */,
+				5789951516E2567100C6E0D1 /* NSString+Language.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
 				INFOPLIST_FILE = "Giberish/Giberish-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,7 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Giberish/Giberish-Prefix.pch";
 				INFOPLIST_FILE = "Giberish/Giberish-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

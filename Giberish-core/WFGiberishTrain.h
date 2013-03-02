@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface WFGiberishTrain : NSObject
+{
+    NSUInteger ngramLenght;
+}
+
+- (id)initGiberishTrainWithNgramLength:(NSUInteger)lenght;
+- (void)trainSupportedLanguages;
 
 @end
